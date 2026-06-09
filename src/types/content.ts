@@ -1,4 +1,4 @@
-export type SocialIcon = "mail" | "scholar" | "github" | "linkedin" | "file";
+export type SocialIcon = "mail" | "scholar" | "github" | "linkedin";
 
 export interface NavItem {
   label: string;
@@ -30,12 +30,11 @@ export type BioSegment = BioTextSegment | BioLogoSegment;
 export interface ProjectItem {
   id: string;
   title: string;
-  authors: PublicationAuthor[];
-  venue: string;
-  year: number;
-  image: string;
-  imageAlt: string;
+  summary: string;
+  description: string;
   topic: string;
+  tags: string[];
+  links: LinkItem[];
   featured?: boolean;
 }
 
