@@ -55,8 +55,8 @@ export interface PublicationItem {
   venue: string;
   year: number;
   category: string;
-  image: string;
-  imageAlt: string;
+  image?: string;
+  imageAlt?: string;
   links: LinkItem[];
   featured?: boolean;
 }

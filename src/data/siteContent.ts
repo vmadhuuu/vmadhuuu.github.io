@@ -15,6 +15,8 @@ import ucdLogo from "@/assets/logos/ucdavis.png";
 import viaLogo from "@/assets/logos/via.png";
 import boschLogo from "@/assets/logos/bosch.png";
 import VTbench_image from "@/assets/VTbench_image.png";
+import VEIL_image from "@/assets/VEIL.png";
+import Plover_image from "@/assets/Plover.png";
 import iot_image from "@/assets/iot_image.png";
 import yolo_image from "@/assets/yolo_image.png";
 
@@ -142,7 +144,54 @@ const projects: ProjectItem[] = [
   },
 ];
 
+// Keep publications newest-first: add each new paper at the top of this list.
 const publications: PublicationItem[] = [
+  {
+    title: "Plover: Steering GUI Agents through Plan-Centric Interaction",
+    authors: [
+      { name: "Madhumitha Venkatesan", highlight: true },
+      { name: "Shicheng Wen" },
+      { name: "Jiajing Guo" },
+      { name: "Jorge Piazentin One" },
+      { name: "Liu Ren" },
+      { name: "Dongyu Liu" },
+    ],
+    venue: "arXiv preprint",
+    year: 2026,
+    category: "arXiv",
+    image: Plover_image,
+    imageAlt: "Preview image for Plover",
+    featured: true,
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2607.15193" },
+      {
+        label: "Video",
+        href: "https://www.youtube.com/watch?v=Rh90z_2h8l8",
+      },
+    ],
+  },
+  {
+    title: "VEIL: How Visual Encoding Hijacking Induces Bias In Vision Models",
+    authors: [
+      { name: "Suranjana Sooraj" },
+      { name: "Xuyang Chen" },
+      { name: "Madhumitha Venkatesan", highlight: true },
+      { name: "Dongyu Liu" },
+    ],
+    venue: "IEEE VIS 2026 — Short Papers",
+    year: 2026,
+    category: "VIS",
+    image: VEIL_image,
+    imageAlt: "Preview image for VEIL",
+    featured: true,
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2607.05641" },
+      {
+        label: "Code",
+        href: "https://github.com/via-cs/vtbench/tree/suranjana-code",
+      },
+    ],
+  },
   {
     title:
       "VTBench: A Multimodal Framework for Time-Series Classification with Chart-Based Representations",
@@ -194,7 +243,6 @@ const publications: PublicationItem[] = [
     category: "Conference",
     image: yolo_image,
     imageAlt: "Preview image for YOLO",
-    featured: true,
     links: [
       {
         label: "Paper",

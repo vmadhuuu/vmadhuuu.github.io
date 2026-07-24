@@ -25,18 +25,20 @@ export function PublicationItemCard({ publication, compact = false }: Publicatio
       )}
     >
       <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
-        <div
-          className={cn(
-            'overflow-hidden rounded-[18px] border border-[rgba(17,17,17,0.08)] bg-[rgba(248,246,241,0.9)]',
-            compact ? 'h-28 w-full sm:h-28 sm:w-40' : 'h-36 w-full sm:h-36 sm:w-52',
-          )}
-        >
-          <img
-            src={publication.image}
-            alt={publication.imageAlt}
-            className="h-full w-full object-cover"
-          />
-        </div>
+        {publication.image && (
+          <div
+            className={cn(
+              'overflow-hidden rounded-[18px] border border-[rgba(17,17,17,0.08)] bg-[rgba(248,246,241,0.9)]',
+              compact ? 'h-36 w-full sm:h-36 sm:w-60' : 'h-44 w-full sm:h-44 sm:w-72',
+            )}
+          >
+            <img
+              src={publication.image}
+              alt={publication.imageAlt ?? ''}
+              className="h-full w-full object-cover"
+            />
+          </div>
+        )}
 
         <div className="min-w-0 flex-1">
           <p className="text-[13px] font-medium text-[rgba(139,63,92,0.85)]">

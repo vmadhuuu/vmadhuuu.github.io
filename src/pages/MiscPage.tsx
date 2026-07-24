@@ -68,7 +68,7 @@ const galleryImages: GalleryImage[] = [
 const autoplayDelayMs = 4000;
 
 function getImagePath(fileName: string) {
-  return encodeURI(`/misc-gallery/${fileName}`);
+  return `${import.meta.env.BASE_URL}misc-gallery/${encodeURIComponent(fileName)}`;
 }
 
 export function MiscPage() {
