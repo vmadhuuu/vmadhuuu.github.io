@@ -44,6 +44,14 @@ const socialLinks: SocialLink[] = [
 
 const news: NewsItem[] = [
   {
+    date: "July 2026",
+    title: "Plover in collaboration with Bosch Research is now up on ArXiv!",
+  },
+  {
+    date: "June 2026",
+    title: "VEIL has been accepted in IEEE VIS 2026 (Short Papers)!",
+  },
+  {
     date: "May 2026",
     title: "VTBench is up on ArXiv!",
   },
@@ -156,9 +164,9 @@ const publications: PublicationItem[] = [
       { name: "Liu Ren" },
       { name: "Dongyu Liu" },
     ],
-    venue: "arXiv preprint",
+    venue: "ArXiv",
     year: 2026,
-    category: "arXiv",
+    category: "ArXiv",
     image: Plover_image,
     imageAlt: "Preview image for Plover",
     featured: true,
@@ -200,9 +208,9 @@ const publications: PublicationItem[] = [
       { name: "Xuyang Chen" },
       { name: "Dongyu Liu" },
     ],
-    venue: "arXiv",
+    venue: "ArXiv",
     year: 2026,
-    category: "Preprint",
+    category: "ArXiv",
     image: VTbench_image,
     imageAlt: "Preview image for VTBench",
     featured: true,

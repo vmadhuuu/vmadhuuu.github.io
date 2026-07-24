@@ -41,7 +41,7 @@ export function PublicationItemCard({ publication, compact = false }: Publicatio
         )}
 
         <div className="min-w-0 flex-1">
-          <p className="text-[13px] font-medium text-[rgba(139,63,92,0.85)]">
+          <p className="inline-flex rounded-full bg-[rgba(139,63,92,0.85)] px-2 py-0.5 text-[11px] font-medium leading-4 text-white">
             {publication.category} · {publication.year}
           </p>
           <h3 className={cn('mt-2 leading-tight text-black', compact ? 'text-[1.18rem]' : 'text-[1.42rem]')}>
