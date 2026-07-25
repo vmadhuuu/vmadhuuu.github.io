@@ -230,7 +230,7 @@ const publications: PublicationItem[] = [
     ],
     venue: "AIP Conference Proceedings",
     year: 2024,
-    category: "Conference",
+    category: "IEEE",
     image: iot_image,
     imageAlt: "Preview image for IoT",
     // featured: true,
@@ -248,7 +248,7 @@ const publications: PublicationItem[] = [
     venue:
       "International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)",
     year: 2022,
-    category: "Conference",
+    category: "IEEE",
     image: yolo_image,
     imageAlt: "Preview image for YOLO",
     links: [
