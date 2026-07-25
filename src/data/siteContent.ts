@@ -49,7 +49,7 @@ const news: NewsItem[] = [
   },
   {
     date: "June 2026",
-    title: "VEIL has been accepted in IEEE VIS 2026 (Short Papers)!",
+    title: "VEIL has been accepted in IEEE VIS 2026 (Short Papers) 🥳🎉",
   },
   {
     date: "May 2026",
