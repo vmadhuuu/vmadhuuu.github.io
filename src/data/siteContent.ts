@@ -230,7 +230,7 @@ const publications: PublicationItem[] = [
     ],
     venue: "AIP Conference Proceedings",
     year: 2024,
-    category: "IEEE",
+    category: "Springer",
     image: iot_image,
     imageAlt: "Preview image for IoT",
     // featured: true,
